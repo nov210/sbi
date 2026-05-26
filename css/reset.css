@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+*{ /* 전체선택자--모든태그(*)에 여백을 뻄 */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width:100%;
+  height:100%;
+}
+html{
+  overflow-y:scroll; /* 문서전체에 세로 스크롤바자국 항상표시 */
+  overflow-x:hidden;/* 문서전체에 가로 스크롤바자국 항상숨김 */
+}
+
+/* 시맨태그를 지원하지 않은 브라우저
+--인식하지 못하는 태그를 인라인으로 인식하기 때문에 강제로 블럭으로 설정함 */
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* body {
+	line-height: 1;
+} */
+ol, ul {
+	list-style: none; /* 목록에 블릿 없애기 */
+}
+a{
+  text-decoration: none; /* 하히퍼링크 밑줄 없애기 */
+  color: inherit; /* 하이퍼링크의 글자색 부모한테 상속받기 */
+}
+
+
+table{border-collapse: collapse;}
+img{
+  vertical-align:top;
+  font-size:0;
+  border:0;
+}
+button,input{outline: none;}
+.hidden{display: none;}
