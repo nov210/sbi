@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>SBI 저축은행</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/sbi_onepage.css">
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <nav>
+        <h1 class="logo">
+          <a href="#">
+            <img src="image/logo.png" alt="SBI저축은행">
+          </a>
+        </h1>
+
+        <ul>
+          <li><a href="#section1">개인화</a></li>
+          <li><a href="#section2">안심이체</a></li>
+          <li><a href="#section3">상품</a></li>
+          <li><a href="#section4">알림</a></li>
+          <li><a href="#section5">자동이체</a></li>
+          <li><a href="#final">Final Screens</a></li>
+        </ul>
+
+        <a href="#none" class="figma_btn">피그마로가기</a>
+      </nav>
+    </header>
+
+    <div class="top-wrap">
+      <main>
+        <div class="hero_text">
+          <span class="hero_eyebrow">SBI저축은행 · 사이다뱅크 UX/UI · 2024</span>
+          <h2 class="hero_title">흩어진 금융 경험을 <br><span class="hero_title_color">더 쉽고 일관되게</span></h2>
+        </div>
+
+        <img src="image/top_ani.png" alt="ani" class="hero_image">
+
+        <div class="top_profile">
+          <ul>
+            <li class="profile_title">2Platform</li>
+            <li class="profile_bd">PC Web + 사이다뱅크 앱</li>
+          </ul>
+          <ul>
+            <li class="profile_title">Figma</li>
+            <li class="profile_bd">Design Tool</li>
+          </ul>
+          <ul>
+            <li class="profile_title">Design System</li>
+            <li class="profile_bd">PC Web + 사이다뱅크 앱</li>
+          </ul>
+          <ul>
+            <li class="profile_title">Team Project</li>
+            <li class="profile_bd">UI 디자인 담당</li>
+          </ul>
+          <ul>
+            <li class="profile_title">Duration</li>
+            <li class="profile_bd">2023.06 — 2024.01</li>
+          </ul>
+        </div>
+
+        <div class="scroll-down">
+          <i class="bx bx-chevron-down bx-remove-padding"></i>
+        </div>
+      </main>
+    </div>
+    <div class="problem_section">
+    <div class="problem_inner">
+    <span class="problem_eyebrow">PROBLEM</span>
+    <h2 class="problem_title">자산 규모 1위 저축은행의 <br><span class="problem_title_gray">디지털 접점을 정리했습니다.</span></h2>
+    <p class="problem_lead">PC 홈페이지와 사이다뱅크 앱을 하나의 디자인 언어로 통합하고,주요 사용 흐름을 함께 재설계했습니다.</p>
+
+    <div class="problem_compare">
+      <div class="problem_card before_card">
+        <span class="problem_label before_label">BEFORE — 기존 문제</span>
+        <span class="problem_url">babilloan.com · sbisb.co.kr · m.sbisb.co.kr</span>
+        <ul class="problem_list">
+          <li><strong>브랜드 파편화</strong> — SBI저축은행, 바빌론(대출), 사이다뱅크(앱)가 각각 다른 사이트. 같은 회사인지 인지하기 어려움</li>
+          <li><strong>복잡한 정보구조</strong> — 메뉴 depth 4단계 이상. 원하는 기능까지 클릭 5회 이상</li>
+          <li><strong>레거시 UI</strong> — EUC-KR 기반 2010년대 디자인. 토스·카카오뱅크 대비 신뢰감 격차 큼</li>
+          <li><strong>PC/모바일 분리</strong> — 별도 도메인 운영. 디자인 시스템 부재. 일관된 경험 없음</li>
+        </ul>
+      </div>
+
+      <div class="problem_card after_card">
+        <span class="problem_label after_label">AFTER — 리디자인 목표</span>
+        <span class="problem_url">sbisb.co.kr (PC) + 사이다뱅크 (Mobile)</span>
+        <ul class="problem_list">
+          <li><strong>통합 브랜드 경험</strong> — PC와 모바일에서 동일한 톤&매너. 바빌론·사이다뱅크를<br> 홈에서 함께 안내</li>
+          <li><strong>단순화된 IA</strong> — GNB 4개 + 빠른서비스 바로 주요 6개 기능 1클릭 접근</li>
+          <li><strong>현대적 비주얼</strong> — Pretendard 타이포, SBI 블루 컬러 팔레트, 카드 기반 UI</li>
+          <li><strong>디자인 시스템 구축</strong> — Foundation부터 컴포넌트까지 체계적으로 정의</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    </div>
+
+<!-- * 섹션 * ----------------------------------------------->
+    <div class="section_wrap">
+
+      <div class="section1" id="section1">
+        <div class="section1_header">
+          <div class="section_title">
+            <h3>PC 홈 · 로그인 후</h3>
+            <p class="desc">로그인하면 <br> 달라집니다.</p>
+            <p>로그인 전과 후, 홈 화면이 다르게 작동합니다. 로그인 후에는 내 계좌 <br>잔액, 대출 현황, 맞춤 서비스를 바로 확인할 수 있습니다.</p>
+
+            <div class="login_compare">
+              <div class="login_compare_item1">
+                <span class="login_state">로그인 전</span>
+                <span class="login_info">상품 소개, 이자율, 이벤트만 노출</span>
+              </div>
+              <div class="login_compare_item2">
+                <span class="login_state">로그인 후</span>
+                <span class="login_info">내 계좌 잔액, 대출 잔액, 맞춤 서비스, 즉시이체 위젯 노출</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="section_feature">
+            <div class="feature_card">
+              <img src="image/off.png" alt="" class="img-off">
+              <img src="image/on.png" alt="" class="img-on">
+            </div>
+          </div>
+        </div>
+
+        <div class="section1_content">
+          <div class="content_card">
+            <h4>로그인 전/후 홈 분리</h4>
+            <p>비로그인 상태엔 상품·공지 중심. 로그인 후엔 내 자산 요약과 맞춤 서비스를 즉시 표시합니다.</p>
+          </div>
+
+          <div class="content_card">
+            <h4>자산 3분할 요약</h4>
+            <p>입출금·예금·대출 잔여금을 3개 카드로 한눈에 파악. 대출 잔여금은 빨간색으로 시각적 경고를 줍니다.</p>
+          </div>
+
+          <div class="content_card">
+            <h4>개인화된 퀵서비스</h4>
+            <p>로그인 후에는 즉시이체·거래내역·대출조회 등 실사용 기능 중심으로 퀵서비스 바가 재구성됩니다.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2" id="section2">
+        <div class="section2_header">
+          <div class="phone-wrap">
+            <img src="image/iphone.png" alt="" class="phone-frame">
+            <div class="phone-screen">
+              <img src="image/msb_01.png" alt="" class="scroll-type-2">
+            </div>
+          </div>
+
+          <div class="section_title">
+            <h3>이체 · 안심</h3>
+            <p class="desc">보내기 전에 <br> 이미 <br> 확인됩니다.</p>
+            <p>금액 입력 직후 사기 계좌 여부를 자동으로 조회합니다.</p>
+
+            <div class="before_after_wrap">
+              <div class="compare_before">
+                <span class="compare_label"><span class="before_text">Before</span> · 클릭 5회 이상</span>
+              </div>
+              <div class="compare_after">
+                <span class="compare_label"><span class="after_text">After</span> · 1클릭 접근</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section2_content">
+          <div class="content2_card">
+            <h4>사기계좌 자동 조회</h4>
+            <p>금액 입력 즉시 사기 피해 이력을 자동으로 조회합니다. 별도 확인 단계 없이 인라인으로 <br>즉시 결과를 표시합니다.</p>
+            <div class="safe-badge">사기 계좌 조회 완료 · 안전한 계좌</div>
+          </div>
+
+          <div class="content2_card">
+            <h4>금액 빠른 입력 + 잔액 표시</h4>
+            <p>+1만 / +5만 / +10만 / 전액 버튼으로 키보드 없이 금액을 설정하고, 입력 필드 안에 잔액을 함께 표시해 과이체를 방지합니다.</p>
+            <div class="amount-list">
+              <span>+5만</span>
+              <span>+10만</span>
+              <span class="active">전액</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section3" id="section3">
+        <div class="section3_header">
+          <div class="section_title">
+            <h3>예·적금 · 상품</h3>
+            <p class="desc">금리를 <br> 느끼게<br> 만들었습니다.</p>
+            <p>텍스트 목록이던 상품을 카드 UI로 바꿨습니다. 금리 숫자가 커지고, <br>뱃지로 유형이 구분되고, 주력 상품은 그라디언트로 자연스럽게 강조됩니다.</p>
+          </div>
+
+          <div class="count_wrap">
+            <img src="image/count_bg.png" alt="" class="count_bg">
+            <span class="count_num count1" data-target="5.6">0</span><span class="count_unit count1_unit">%</span>
+            <span class="count_num count2" data-target="5.95">0</span><span class="count_unit count2_unit">%</span>
+            <span class="count_num count3" data-target="1.6">0</span><span class="count_unit count3_unit">%</span>
+        </div>
+        </div>
+
+        <div class="section3_content">
+          <div class="content_card">
+            <h4>탭으로 상품 분류</h4>
+            <p>예·적금 / 신용대출 / 담보대출을 탭으로 나눠 원하는 카테고리의 상품만 빠르게 탐색할 수 있습니다.</p>
+          </div>
+
+          <div class="content_card">
+            <h4>뱃지로 유형 즉시 구분</h4>
+            <p>거치식·적립식 뱃지를 카드 상단에 배치해 상품 성격을 스캔만으로 파악할 수 있습니다.</p>
+          </div>
+
+          <div class="content_card">
+            <h4>금리 중심 카드 UI</h4>
+            <p>금리, 상품명, 기간 정보를 카드 안에 구조화해 핵심 조건을 더 빠르게 비교할 수 있도록 했습니다.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section4" id="section4">
+        <div class="section4_header">
+          <div class="section_title">
+            <h3>알림 · 조회</h3>
+            <p class="desc">내 돈의 <br> 움직임을 <br> 놓치지 않게.</p>
+            <p>이체·이자·자동 탭으로 나눠 한눈에. 확인 안 한 알림은 <br>파란 보더로 바로 눈에 띕니다.</p>
+          </div>
+
+          <div class="phone-wrap">
+            <img src="image/iphone.png" alt="" class="phone-frame">
+            <div class="phone-screen">
+              <img src="image/msb_02.png" alt="" class="scroll-type-4">
+            </div>
+          </div>
+        </div>
+
+        <div class="section4_content">
+          <div class="content4_card">
+            <h4>카테고리 탭 필터</h4>
+            <p>즉시·간편·예약·자동 4개 탭으로 분류해 원하는 알림만 즉시 필터링할 수 있습니다.</p>
+          </div>
+
+          <div class="content4_card">
+            <h4>미확인 강조 · 순차 슬라이드인</h4>
+            <p>읽지 않은 알림은 좌측 파란 보더로 구분하고, 카드들은 0.35초 간격으로 로딩감을 줍니다.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section5" id="section5">
+        <div class="section5_header">
+          <div class="section_title">
+            <h3>자동이체 · 예약</h3>
+            <p class="desc">자동납부,  <br> 숫자로  <br> 확인하세요.</p>
+            <p>점검 중에도 예약해두면 끝나는 즉시 자동 이체됩니다. <br>반복 이체도 한 번만 설정하면 됩니다.</p>
+          </div>
+
+          <div class="phone-wrap">
+            <img src="image/iphone.png" alt="" class="phone-frame">
+            <div class="phone-screen">
+            <img src="image/msb_05_1.png" alt="" class="step-img step1 active">
+            <img src="image/msb_05_2.png" alt="" class="step-img step2">
+            <img src="image/msb_05_3.png" alt="" class="step-img step3 scroll-type-5">
+          </div>
+        </div>
+        </div>
+
+        <div class="section5_content">
+          <div class="content5_card">
+            <h4>점검 시간 자동 예약</h4>
+            <p>은행 점검 시간에 예약하면 점검 종료 즉시 자동 이체됩니다. 새벽에 다시 확인할 필요 없습니다.</p>
+            <div class="safe-badge5_1">점검 종료 후 자동 실행</div>
+
+          </div>
+
+        <div class="content5_card">
+          <h4>정기 이체 반복 설정</h4>
+          <p>매월 특정 날짜에 반복 이체를 설정하면 매달 자동으로 처리됩니다. 활성·일시중지를 카드 하나로 관리합니다.</p>
+          <div class="safe-badge5_2">
+            <span class="repeat-label">반복 주기</span>
+            <div class="repeat-tabs">
+            <span class="repeat-tab-active">매월</span>
+            <span class="repeat-tab">매주</span>
+            <span class="repeat-tab">1회</span>
+          </div>
+          </div>
+        </div>
+          <div class="content5_card">
+          <h4>월별 납부 내역 그래프</h4>
+          <p>최근 6개월 납부 금액을 그래프로 보여줘 흐름을 한눈에 파악할 수 있습니다.</p>
+          <div class="safe-badge5_3">
+          <span>최근 6개월 평균 100,000원</span>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- * 페이지작업화면 * ----------------------------------------------->
+    <div class="rolling_section" id="final">
+    <div class="rolling_inner">
+    <h2 class="rolling_title">Final Screens</h2>
+    <p class="rolling_lead">사이다뱅크 앱과 SBI저축은행 PC 화면입니다.</p> 
+
+    <div class="rolling_track">
+      <div class="rolling_card"><img src="image/lolling_1.png" alt=""></div>
+      <div class="rolling_card"><img src="image/lolling_2.png" alt=""></div>
+      <div class="rolling_card"><img src="image/lolling_3.png" alt=""></div>
+      <div class="rolling_card"><img src="image/lolling_4.png" alt=""></div>
+      <div class="rolling_card"><img src="image/lolling_5.png" alt=""></div>
+      <div class="rolling_card"><img src="image/lolling_6.png" alt=""></div>
+      <div class="rolling_card"><img src="image/lolling_7.png" alt=""></div>
+      <div class="rolling_card"><img src="image/lolling_8.png" alt=""></div>
+    </div>
+
+    <div class="rolling_dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div class="pc_rolling_section">
+  <div class="pc_rolling_inner">
+
+    <div class="pc_rolling_track">
+      <div class="pc_rolling_card"><img src="image/pc_00.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_01.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_02.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_03.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_04.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_05.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_06.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_07.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_08.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_09.png" alt=""></div>
+      <!-- 무한 루프 위해 5장 복사 -->
+      <div class="pc_rolling_card"><img src="image/pc_01.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_01.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_01.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_01.png" alt=""></div>
+      <div class="pc_rolling_card"><img src="image/pc_01.png" alt=""></div>
+    </div>
+  </div>
+</div>
+    </div>
+
+  <!-- 하단 Top 버튼 -->
+    <a href="#" class="top_btn">TOP</a>
+  
+<!-- * 풋터 * ----------------------------------------------->
+    <footer>
+      <address>© 2023~2024 이인영 · co210@naver.com</address>
+    </footer>
+  </div>
+
+  <!-- * 자바 * ----------------------------------------------->
+<script>
+  window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+
+  // 캐러셀 자동 롤링
+  (function(){
+    const cards = document.querySelectorAll('.rolling_card');
+    const dots = document.querySelectorAll('.rolling_dots .dot');
+    const total = cards.length;
+    let current = 0;
+
+    function update(){
+      cards.forEach((card, i) => {
+        card.classList.remove('pos-center','pos-left','pos-right','pos-far-left','pos-far-right');
+        const diff = (i - current + total) % total;
+        if(diff === 0) card.classList.add('pos-center');
+        else if(diff === 1) card.classList.add('pos-right');
+        else if(diff === total - 1) card.classList.add('pos-left');
+        else if(diff === 2) card.classList.add('pos-far-right');
+        else if(diff === total - 2) card.classList.add('pos-far-left');
+      });
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === current);
+      });
+    }
+
+    update();
+    setInterval(() => {
+      current = (current + 1) % total;
+      update();
+    }, 3500);
+  })();
+
+  // 카운트업
+function countUp(el) {
+  const target = parseFloat(el.dataset.target);
+  const duration = 1500;
+  const step = target / (duration / 16);
+  let current = 0;
+  el.textContent = '0';
+  const timer = setInterval(() => {
+    current += step;
+    if (current >= target) {
+      current = target;
+      clearInterval(timer);
+      // 2초 쉬고 다시 시작
+      setTimeout(() => countUp(el), 3000);
+    }
+    el.textContent = current.toFixed(2);
+  }, 16);
+}
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      document.querySelectorAll('.count_num').forEach(el => countUp(el));
+    }
+  });
+}, { threshold: 0.5 });
+
+const countWrap = document.querySelector('.count_wrap');
+if (countWrap) observer.observe(countWrap);
+
+/* 5번섹션 */
+(function(){
+  const steps = document.querySelectorAll('.step-img');
+  let current = 0;
+
+  function showStep(index){
+    steps.forEach(s => {
+      s.classList.remove('active', 'scrolling');
+    });
+    steps[index].classList.add('active');
+    if(index === 2){
+      setTimeout(() => {
+        steps[index].classList.add('scrolling');
+      }, 300);
+    }
+  }
+
+  function nextStep(){
+    current = (current + 1) % steps.length;
+    showStep(current);
+  }
+
+  // 1단계 2초 → 2단계 2초 → 3단계 6초(스크롤) → 다시 1단계
+  function run(){
+    showStep(0);
+    setTimeout(() => showStep(1), 2000);          // 2초 후 2단계
+    setTimeout(() => showStep(2), 4000);          // 4초 후 3단계
+    setTimeout(() => run(), 11000);               // 11초 후 처음부터
+  }
+
+  run();
+})();
+
+
+// 스크롤 페이드인
+const animEls = document.querySelectorAll(
+  '.section_title, .section_feature, .phone-wrap, ' +
+  '.section1_content, .section2_content, .section3_content, ' +
+  '.section4_content, .section5_content, ' +
+  '.problem_inner, .count_wrap'
+);
+
+animEls.forEach(el => {
+  el.style.opacity = '0';
+  el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+
+  if(el.classList.contains('section_title')){
+    el.style.transform = 'translateX(-60px)';
+  } else if(el.classList.contains('section_feature') || el.classList.contains('phone-wrap')){
+    el.style.transform = 'translateX(60px)';
+  } else {
+    el.style.transform = 'translateY(60px)';
+  }
+});
+
+const animObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      const el = entry.target;
+      let delay = 0;
+
+      if(el.classList.contains('section_feature') || el.classList.contains('phone-wrap')){
+        delay = 200;    // 이미지는 텍스트보다 0.2초 늦게
+      } else if(el.classList.contains('section1_content') || 
+                el.classList.contains('section2_content') ||
+                el.classList.contains('section3_content') ||
+                el.classList.contains('section4_content') ||
+                el.classList.contains('section5_content')){
+        delay = 400;    // 카드는 0.4초 늦게
+      }
+
+      setTimeout(() => {
+        el.style.opacity = '1';
+        el.style.transform = 'translate(0)';
+      }, delay);
+
+      animObserver.unobserve(el);
+    }
+  });
+}, { threshold: 0 });
+
+animEls.forEach(el => animObserver.observe(el));
+</script>
+</body>
+</html>
